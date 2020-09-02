@@ -1,0 +1,28 @@
+{
+  "name": "codefun",
+  "version": "1.0.0",
+  "description": "code &amp;&amp; fun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayon/codefun.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayon/codefun/issues"
+  },
+  "homepage": "https://github.com/mayon/codefun#readme",
+  "devDependencies": {
+    "commitizen": "^4.2.1",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
